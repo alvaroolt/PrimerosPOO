@@ -1,5 +1,5 @@
-# PrimerosPOOPython
-Primera batería de ejercicios de programación orientados a objetos en python.
+# PrimerosPOO
+Primera batería de ejercicios de programación orientados a objetos.
 
 Realiza los siguientes ejercicios:
 1. Implementa en Python las clases GatoSimple, Cubo y Cuadrado vistas en el libro "Aprende Java con Ejercicios" y sus respectivos programas de prueba.
