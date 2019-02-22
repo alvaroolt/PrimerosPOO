@@ -32,4 +32,4 @@ class Cuadrado:
     
 
 cuadrado1 = Cuadrado(9)
-print(cuadrado1.__str__())
+print(cuadrado1)
