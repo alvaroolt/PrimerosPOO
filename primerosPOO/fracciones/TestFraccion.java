@@ -4,7 +4,7 @@ public class TestFraccion {
 
 	public static void main(String[] args) {
 		Fraccion fraccion1 = new Fraccion(1, 2);
-		Fraccion fraccion2 = new Fraccion(2, 3);
+		Fraccion fraccion2 = new Fraccion(1, 4);
 		//Fraccion fraccion3 = new Fraccion(7, 6);
 		//Fraccion fraccion4 = new Fraccion(1, 4);
 		// Fraccion fraccion5 = new Fraccion(5,0);
