@@ -55,6 +55,7 @@ class Fraccion:
             
     def calculaMCM(self, Fraccion):
         mcm = 0
+        min = min(self.denominador, Fraccion.getNumerador());
         for i in range(1, min):
             if self.denominador % i == 0 and Fraccion.getDenominador() % i == 0:
                 mcd = i
@@ -76,4 +77,4 @@ class Fraccion:
         Fraccion.setDenominador(mcm)
         
     def __str__(self):
-        return str(self.getNumerador()), " /", str(self.getDenominador()), "Resultado =", str(self.getReal())
+        return str(self.getNumerador()) + "/" + str(self.getDenominador()) + " Resultado = " + str(self.getReal())
