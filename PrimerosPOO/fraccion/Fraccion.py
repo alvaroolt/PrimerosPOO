@@ -38,8 +38,8 @@ class Fraccion:
         self.denominador = self.getDenominador() * 1
     
     def multiplicaFracciones(self, Fraccion):
-        self.numerador = self. numerador * Fraccion.getNumerador()
-        self.denominador = self.denominador * Fraccion.getDenominador()
+        self.numerador = self. numerador * Fraccion.getNumerador(self)
+        self.denominador = self.denominador * Fraccion.getDenominador(self)
     
     def suma(self, Fraccion):
         if self.denominador != Fraccion.getDenominador():
@@ -55,8 +55,8 @@ class Fraccion:
             
     def calculaMCM(self, Fraccion):
         mcm = 0
-        min = min(self.denominador, Fraccion.getNumerador());
-        for i in range(1, min):
+        minimo = min(self.denominador, Fraccion.getNumerador());
+        for i in range(1, minimo):
             if self.denominador % i == 0 and Fraccion.getDenominador() % i == 0:
                 mcd = i
                 mcm = (self.denominador * Fraccion.getDenominador()) / mcd
